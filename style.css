@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family:'Roboto';
     margin:0;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,9 @@ body {
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-top: 8px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,30 +34,28 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight:600;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
 }
 
 ul{
     
     display: flex;
     list-style: none;
-    gap: 10px;
-}
-
-li{
-    font-size: 18px;
-    color:#E5E7EB;
-
+    gap: 25px;
+    justify-content: center;
 }
 
 a{
     text-decoration: none;
-    color: #E5E7EB;
+    color: rgb(214, 213, 213);
     font-size: 18px;
 }
  
 button{
-    height: 35px;
-    width: 120px;
+    height: 37px;
+    width: 125px;
     font-size: 18px;
     background-color:#3882F6;
     color:#F9FAF8;
@@ -75,11 +73,12 @@ button{
 }
 
 .block1{
-    height: 250px;
-    width: 500px;
-    background-color: darkgrey;
+    height: 240px;
+    width: 520px;
+    background-color: #E5E7EB;
     text-align: center;
     flex-shrink: 0;
+    
 }
 
 .block{
@@ -92,27 +91,31 @@ button{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
-    padding: 100px 20px;
+    padding: 100px 200px 130px 200px;
+    gap: 40px;
+    
     
 }
 .left-intro {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     align-items: left;
-    gap: 10px;
 }
 
 .intro-heading{ /* Changes "This website is awesome" */
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 750;
     text-align: left;
+    
 }
 .introduction { /* Message underneath */
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
     text-align: left;
+    margin-bottom: 10px;
 }
