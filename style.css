@@ -4,11 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f6e8a6;
+
 }
 
 
 .header{
-    background-color: #1F2937;
+    background-color:#291c15;
     color: #F9FAF8;
     padding-top: 10px;
     padding-left: 200px;
@@ -19,7 +21,7 @@ body {
 }
 
 .footer{
-    background-color: #1F2937;
+    background-color: #291c15;
     color: #F9FAF8;
     padding: 40px 200px 40px 200px;
     display: flex;
@@ -28,14 +30,14 @@ body {
 }
 .f-note{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #f5eab1;
     font-weight: 300;
 }
 
 
 .title{
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f4ebc1;
     font-weight:600;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -52,7 +54,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: rgb(214, 213, 213);
+    color: rgb(234, 223, 177);
     font-size: 18px;
 }
  
@@ -60,8 +62,8 @@ button{
     height: 37px;
     width: 125px;
     font-size: 18px;
-    background-color:#3882F6;
-    color:#F9FAF8;
+    background-color:#f0ac38;
+    color:#291c15;
     text-align: center;
    
     border-radius: 8px; /* This makes the edges curved */
@@ -71,7 +73,7 @@ button{
 
 .bottomb{ /*Class for the bottom button as it needs a border*/
     border-style: solid;
-    border-color: #F9FAF8;
+    border-color: #f6e8a6;
 
 }
 
@@ -84,19 +86,23 @@ button{
     
 }
 
-.block{
+img{ 
+    height: auto;
+    width: 520px;
+}
+
+.block{ /* Class for image size*/
     height: 170px;
     width: 170px;
-   background-color: white;
+   background-color: #f5eab1;
    border-style: solid;
-   border-color: #3882F6;
+   border-color: #f0ac38;
    border-radius: 12px;
    
 }
 
 .intro{ /* Holds intro stuff below and image */
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #291c15;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -113,7 +119,7 @@ button{
 }
 
 .intro-heading{ /* Changes "This website is awesome" */
-    color: #F9FAF8;
+    color: #f5eab1;
     font-size: 48px;
     font-weight: 750;
     text-align: left;
@@ -121,7 +127,7 @@ button{
 }
 .introduction { /* Message underneath */
     font-size: 18px;
-    color: #E5E7EB;
+    color: #f5eab1;
     font-weight: 300;
     text-align: left;
     margin-bottom: 10px;
@@ -133,12 +139,13 @@ button{
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+    background-color: #f6e8a6;
 }
 
 .heading-2 {
     font-size: 36px;
     font-weight: 900px;
-    color: #1F2937;
+    color: #291c15;
     text-align: center;
     padding: 50px;
     
@@ -163,14 +170,14 @@ button{
 .imgdesc {
     font-size: 18px;
     text-align: center;
-    color: #5a5b5d;
+    color: #291c15;
     font-weight: 400;
     padding: 15px;
 
 }
 
 .quote-sec{
-    background-color: #E5E7EB ;
+    background-color: #cec181;
     padding: 120px 300px 100px 300px;
    
 }
@@ -179,21 +186,22 @@ button{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    color: #291c15;
 }
 
 .signature {
-    color: #19212d;
+    color: #212121;
     font-size: 23px;
     
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
     margin-right: 60px;
 
 }
 
 .banner{
-    background-color: #3882F6;
+    background-color: #f0ac38;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -205,12 +213,12 @@ button{
 .heading4{
     font-size: 23px;
     font-weight: 400;
-    color:#F9FAF8
+    color:#291c15;
 }
 
 .message{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #291c15;
 }
 
 
